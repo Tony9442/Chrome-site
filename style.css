@@ -1,0 +1,48 @@
+
+
+.container {
+   margin-top: 100px;
+   /* this can still center the buttons but we use flex */
+   /* text-align: center; */
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.seach-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe2e5;
+    border-radius: 24px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    background: #dfe1e5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius:5px;
+    font-size: 14px;
+}
